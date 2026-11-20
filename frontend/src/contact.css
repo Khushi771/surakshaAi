@@ -1,0 +1,21 @@
+.contact-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 3px 5px;
+  border: 0;
+  background: transparent;
+  color: #63876a;
+  font-size: inherit;
+}
+
+.contact-link:hover { color: #315f3b; }
+.contact-intro { margin: -8px 0 16px; color: #87918a; font-size: 10px; }
+.contact-error { margin: 10px 0 0; color: #a34f42; font-size: 10px; }
+.contact-honeypot { position: absolute !important; left: -10000px !important; width: 1px !important; height: 1px !important; overflow: hidden !important; }
+.incident-modal .primary-button:disabled { cursor: wait; opacity: .7; }
+
+@media (max-width: 780px) {
+  .page-footer { flex-wrap: wrap; gap: 10px; }
+  .page-footer .contact-link { order: 3; }
+}

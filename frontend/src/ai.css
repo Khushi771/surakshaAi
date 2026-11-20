@@ -1,0 +1,20 @@
+.voice-transcript{display:flex;align-items:flex-start;gap:11px;background:#f0f5f0;border:1px solid #dce9dd;border-radius:8px;padding:12px 14px;margin:-18px 0 24px}
+.voice-transcript-icon{width:29px;height:29px;border-radius:7px;background:#e0eee1;color:#598463;display:grid;place-items:center;flex:none}
+.voice-transcript-copy{flex:1;min-width:0}
+.voice-transcript-copy strong{font:600 10px Manrope,sans-serif;color:#435349}
+.voice-transcript-copy p{font-size:10px;line-height:1.5;color:#64736a;margin:4px 0 0;white-space:pre-wrap}
+.partial-text{color:#98a49b}
+.voice-transcript>.text-button{align-self:center;white-space:nowrap;margin:0}
+.analysis-modal{max-height:90vh;overflow-y:auto}
+.risk-overview{border:1px solid #e7ece6;border-radius:7px;padding:12px;margin-bottom:12px;position:relative}
+.risk-overview>strong{float:right;font:700 18px Manrope,sans-serif;color:#3a483e}
+.risk-overview>strong small{font:500 9px 'DM Sans';color:#99a39b}
+.risk-overview p{font-size:10px;color:#69756d;line-height:1.5;margin:9px 0 0}
+.finding-card{border:1px solid #ecefeb;border-radius:6px;padding:10px 11px;margin:8px 0}
+.finding-card>div{display:flex;align-items:center;gap:8px}
+.finding-card>div strong,.recommended-actions>strong{font:600 10px Manrope,sans-serif;color:#39473e}
+.finding-card p{font-size:9px;color:#78847b;line-height:1.45;margin:6px 0}
+.finding-card>small{font-size:8px;color:#9a7b49}
+.recommended-actions{display:grid;gap:6px;padding:10px 2px}
+.recommended-actions span{font-size:9px;color:#758078}
+.ai-review-note{border-left:2px solid #d4ad67;padding:6px 9px;color:#8d784d;font-size:8px;line-height:1.5;background:#faf7ef}
